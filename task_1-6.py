@@ -19,5 +19,4 @@ d=(a-b)
 print ( d/( a + b)**3 - math.cos (c))
 
 #task6
-#( ln( 1 + c ) / -b )4+ | a |
 print ((math.log (1+c) / (- b))**4 + a)
