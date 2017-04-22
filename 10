@@ -1,0 +1,9 @@
+leo = "Leo Tolstoy*1828-08-28*1910-11-20"
+idx1 = leo.find('*')
+idx2 = leo.find('-')
+birth_date = leo [idx1+1:idx2]
+idx3 = leo[idx1+1:].find("*") + idx1+2
+idx4 = leo[idx3:].find("-") + idx3
+death_date = leo [idx3:idx4]
+everything = int(death_date) - int(birth_date)
+print ("Leo Tolstoy", ",", everything)
