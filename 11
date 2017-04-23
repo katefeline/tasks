@@ -1,0 +1,11 @@
+#task11
+import math
+def degrees2radians(degrees):
+     radians = math.pi * degrees /180
+     return radians
+cos40 = math.cos(degrees2radians(40))
+cos45 = math.cos(degrees2radians(45))
+cos60 = math.cos (degrees2radians(60))
+print ("Cos40 is", (cos40), "degrees")
+print ("Cos45 is", (cos45), "degrees")
+print ("Cos60 is", (cos60), "degrees")
