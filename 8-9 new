@@ -1,0 +1,14 @@
+#task8
+a = "aaaaaaaaaaa"
+b = "bbbbbbbbbbb"
+#print (len(a))
+#print (len(a)//5)
+c = (a[:5] + b + a[5:])
+print (c)
+
+#task9
+a = "make america great"
+idx1 = a.find (' ')
+idx2 = idx1 + a[idx1+1:].find (' ') + 1
+b = a[idx1:idx2]
+print (a[:idx1] + b.upper() + a[idx2:])
